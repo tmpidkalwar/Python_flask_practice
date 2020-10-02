@@ -1,0 +1,7 @@
+-> pip3 install pipenv
+
+-> pipenv shell
+
+- Use our vitual environment of package we have in that directory
+
+-> pipenv install flask

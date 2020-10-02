@@ -1,0 +1,10 @@
+Run following command:
+    export FLASK_ENV=development
+    - It will enter flask in development mode, when we edit application it will auto update
+        restart the server
+    flask run
+
+- If we edit any changes in the applicaiton file, it will auto detect after saving and restart
+  the server to reload with changes
+- We can change the application name to app.py , this is the default name for application in flask
+    So when we close the terminal and rerun flask, it will automatically detect application to run.

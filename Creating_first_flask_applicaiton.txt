@@ -1,0 +1,13 @@
+- Create the applicaiton file e.g. hello.py
+    - Flask should have application file to run it.
+- Run below commands
+     export FLASK_APP=hello
+     flask run
+        - It will run the flask server
+
+- Now to update the flask applicaiton, stop the running server and edit the file
+- Edit hello.py
+    - Use @app.route( pass some parameter ) function to mention what to return when someone visit this web page
+    - pass parameter '/' to return home page.
+    - Define home function to describe how home page looks like
+- After done with edit, again run flask

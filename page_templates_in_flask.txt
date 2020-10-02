@@ -1,0 +1,12 @@
+- import render_template from flask
+- create template folder in the directory where application resides
+- create some .html file in template folder
+- Now to return this html file, return fucntion render_template('file.html')
+    - This will print the html file for the given page by route().
+
+- Now to pass variable from flask to html
+    - pass 2nd parameter as a variable name with definition
+        e.g. render_template('home.html', name = 'Tejas')
+- Now to read the passed parameter in the html file
+    - put that variable name inside two curly brackets
+        e.g. <h2>{{ name }}</h2>
